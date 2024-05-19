@@ -1,0 +1,13 @@
+/Library
+/Logs
+/obj
+/Packages
+/ProjectSettings
+/UserSettings
+/.vsconfig
+/Assembly-CSharp.csproj
+/Assembly-CSharp-Editor.csproj
+/GifToPng.sln
+/packages.config
+/PVMZ.sln
+/.vs
