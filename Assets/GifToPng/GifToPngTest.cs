@@ -48,8 +48,7 @@ public class GifToPngTest : MonoBehaviour
             for (int x = 0; x < frame.Width; x++)
                 for (int y = 0; y < frame.Height; y++)
                 {
-                    System.Drawing.Color sourceColor = frame.GetPixel(x, y);
-                    //System.Drawing.Color sourceColor = frame.GetPixel(x, frame.Height - 1 - y);
+                    System.Drawing.Color sourceColor = frame.GetPixel(x, frame.Height - 1 - y);
                     //frameTexture.SetPixel(x, y, new Color32(sourceColor.R, sourceColor.G, sourceColor.B, sourceColor.A));
 
                     if (sourceColor.A > 0f)
